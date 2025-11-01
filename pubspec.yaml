@@ -1,0 +1,44 @@
+name: worker_salary_app
+description: "A comprehensive offline worker salary and attendance management app for diamond factories"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  intl: ^0.20.2
+  pdf: ^3.11.1
+  printing: ^5.13.1
+  shared_preferences: ^2.3.2
+  flutter_slidable: ^4.0.1
+  table_calendar: ^3.1.2
+  syncfusion_flutter_charts: ^30.2.7
+  provider: ^6.1.2
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  sqflite_common_ffi: ^2.3.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/fonts/
+fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+
